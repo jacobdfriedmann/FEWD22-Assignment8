@@ -96,6 +96,8 @@ header nav ul li a {
   color: #f9e42e;
 }
 
+
+
 #hero {
   height: 700px;
   background: url(../images/header_bg.jpg) no-repeat top center #131e27;
@@ -105,7 +107,7 @@ header nav ul li a {
 #hero .logo {
   color: #fff;
 }
-#hero h2 {
+#hero h2, {
   font-size: 48px;
   text-align: center;
   color: #fff;
@@ -134,7 +136,7 @@ header nav ul li a {
 #benefits {
   padding: 100px 0 80px;
 }
-h3 {
+h3, h2{
   color: #033048;
   font-size: 40px;
   font-weight: 600;
@@ -290,6 +292,31 @@ footer p {
 }
 #contact {
   width: 70%;
+}
+
+input {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: 15px;
+    vertical-align: top;
+}
+
+.label-text {
+  display: inline-block;
+  width: 200px;
+  word-break: break-all; 
+}
+
+.formDiv {
+  margin: auto;
+  width: 30%;
 }
 
 @media only screen and (max-width: 768px) {
