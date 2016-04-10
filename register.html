@@ -21,6 +21,7 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="blog.html">Blog</a></li>
 						<li><a href="#">Contact</a></li>
+						<li><a href="register.html">Register!</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -28,8 +29,29 @@
 		<section id="main">
 			<div class="container">
 				<section id="contact">
+				<h3> Register to receive emails from Relaxr! </h3>
+				<form id="registrationForm">
+
+					<label for="username"> Username </label>
+					<input type="text" name="username">
+					<label for "password"> Password </label>
+					<input type="password" name="password">
+					<label for "email"> Email </label>
+					<input type="email" name="email">
+
+					<h2> How often would you like to receive email updates from Relaxr? </h2>
+
+					<select name="freq">
+						<option value="daily"> Daily </option>
+						<option value="weekly"> Weekly </option>
+						<option value="monthly"> Monthly </option>
+					 	<option value="never"> Never </option>
+				 	</select>
+
 					<input type="submit" value="Register Now!">
 				</section>
+				</form>
+			<div id="successMessage" class="success hide"></div>
 			</div>
 		</section>
 
