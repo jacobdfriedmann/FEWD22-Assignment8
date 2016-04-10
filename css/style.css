@@ -290,7 +290,19 @@ footer p {
 }
 #contact {
   width: 70%;
+  font-size: 18px;
 }
+
+/*form input*/
+
+input {
+  display: block;
+}
+.form-question {
+  font-size: 18px;
+}
+
+
 
 @media only screen and (max-width: 768px) {
   body {
