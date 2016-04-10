@@ -56,6 +56,13 @@ body {
 a {
   text-decoration: none;
 }
+label {
+  display: block;
+}
+input {
+  display: block;
+}
+
 
 
 /******************************************
