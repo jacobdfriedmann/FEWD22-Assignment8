@@ -292,6 +292,23 @@ footer p {
   width: 70%;
 }
 
+.enter{
+    display: block;
+  }
+
+.labelSmall{
+  font-size: 20px;
+}
+
+input{
+  margin:5px;
+}
+
+select{
+  display:block;
+  margin: 5px;
+}
+
 @media only screen and (max-width: 768px) {
   body {
     font-size: 18px;
@@ -367,6 +384,10 @@ footer p {
   #sidebar img {
     display: none;
   }
+
+  
+
+
 }
 
 
