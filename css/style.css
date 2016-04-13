@@ -369,4 +369,26 @@ footer p {
   }
 }
 
+.form-header label {
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.selection label {
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+input [type=text] {
+  padding-left: 15px;
+}
+
+.interest {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+
+
 
