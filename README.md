@@ -57,3 +57,72 @@ Instructional team should evaluate against the solution code and the student's f
 4. Commit changes and push them back to GitHub (sync)
 5. Submit a "pull request" to the "upstream" project
 
+
+<div class="container">
+			<h2>Register For Planetarium</h2>
+			<div id="errorMessage" class="error hide"></div>
+			<form id="registrationForm">
+				<label for="username">Username</label>
+				<input type="text" name="username" placeholder="Username">
+
+				<label for="password">Password</label>
+				<input type="password" name="password" placeholder="Password">
+
+				<input type="email" name="emailAddress" placeholder="Email">
+
+				<p>Do you love space?</p>
+				<label>
+					Yes
+					<input type="radio" name="lovesSpace" value="yes">
+				</label>
+				<label>
+					No
+				<input type="radio" name="lovesSpace" value="no">
+				</label>
+
+				<input type="checkbox" name="astronauts" value="Gagarin">
+				<input type="checkbox" name="astronauts" value="Armstrong">
+				<input type="checkbox" name="astronauts" value="Aldrin">
+				<input type="checkbox" name="astronauts" value="Kelly">
+				<input type="checkbox" name="astronauts" value="Ride">
+
+				<select name="planet">
+					<option value=''></option>
+					
+				</select>
+
+				<input type="submit" value="Register for Planetarium!">
+			</form>
+			<div id="successMessage" class="success hide"></div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
