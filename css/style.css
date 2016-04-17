@@ -290,6 +290,39 @@ footer p {
 }
 #contact {
   width: 70%;
+  margin: 0 auto;
+}
+
+form {
+  margin-top: -50px;
+}
+
+input {
+  display: block;
+  width: 250px;
+}
+
+label {
+  display: block;
+  width: 250px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  margin: 20px auto;
+}
+
+label[for="usage"] {
+  font-size: 14px;
+}
+
+label[for="checkbox"] {
+  font-size: 14px;
+}
+
+form p {
+  font-size: 18px;
+  padding: 10px 0;
 }
 
 @media only screen and (max-width: 768px) {
