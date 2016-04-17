@@ -167,6 +167,7 @@ blockquote span {
 }
 #main {
   margin-top: 80px;
+  color:black;
 }
 #posts {
   width: 73%;
@@ -288,9 +289,77 @@ footer p {
   color: #fff;
   font-weight: 600;
 }
-#contact {
-  width: 70%;
+
+#registerMain {
+  margin-left: 20px;
 }
+
+
+#register {
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  background-color: #033048;
+  color:#FFF;
+  padding: 10px;
+}
+
+#registrationForm {
+  display: inline-block;
+}
+
+input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  color: black;
+}
+
+
+
+input[type='checkbox']{
+  display: inline;
+}
+
+
+form{
+  margin-left: 20px;
+}
+
+h1, h2{
+  margin-left: 20px
+}
+
+h2{
+  color:grey;
+  font-weight: 600;
+  font-size: 24;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#relaxrReasons {
+  font-size: 20px;
+}
+
+label {
+  font-size: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.error {
+  color: red;
+    margin-bottom: 15px;
+}
+.success {
+  color: green;
+  margin-top: 15px;
+}
+
 
 @media only screen and (max-width: 768px) {
   body {
@@ -333,6 +402,15 @@ footer p {
   #main {
     margin-top: 25px;
   }
+
+form{
+  margin-left: 20px;
+}
+
+h2{
+  margin-left: 20px;
+}
+
   footer .logo, footer ul li {
     margin-bottom: 30px;
   }
@@ -367,6 +445,23 @@ footer p {
   #sidebar img {
     display: none;
   }
+
+  .hide {
+  display: none;
+  }
+
+.error {
+  color: red;
+    margin-bottom: 15px;
+  }
+.success {
+  color: green;
+  margin-top: 15px;
+  }
+
 }
+
+
+
 
 
