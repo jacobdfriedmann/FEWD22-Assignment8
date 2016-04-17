@@ -25,11 +25,37 @@
 				</nav>
 			</div>
 		</header>
-		<section id="main">
+		<section id="registerMain">
 			<div class="container">
-				<section id="contact">
-					<input type="submit" value="Register Now!">
-				</section>
+				<h2>Register for Relaxr!</h2>
+				<form id="registrationForm" novalidate>
+					<div id="errorMessage" class="error hide"></div>
+					<label for="username">Username: </label>
+					<input type="username" name="username"placeholder="Username">
+					<label for="password">Password: </label>
+					<input type="password" name="password"placeholder="Password">
+					<label for="emailAddress">Email Address: </label>
+					<input type="email" name="emailAddress" placeholder="Email">
+					<label for="zipcode">Zipcode: </label>
+					<input type="zipcode" name="zipcode" placeholder="Zipcode">
+					<label id="relaxrReasons"for="username">Why are You Using Relaxr? (Choose All That Apply):</label>
+					<ul>
+						<li>
+							<label><input type="checkbox" name="interests" value="Personal">Personal</label>
+						</li>
+						<li>
+							<label><input type="checkbox" name="interests" value="Business">Business</label>
+						</li>
+						<li>
+							<label><input type="checkbox" name="interests" value="Business">Student</label>
+						</li>
+						<li>
+							<label><input type="checkbox" name="interests" value="Business">Other</label>
+						</li>
+					</ul>
+					<input id="register" type="submit" value="Register Now!">
+					<div id="successMessage" class="success hide"></div>
+				</form>
 			</div>
 		</section>
 
@@ -43,5 +69,7 @@
 
 			<p class="copyright">Copyright 2015. Relaxr.</p>
 		</footer>
+		<script src='http://code.jquery.com/jquery-latest.min.js'></script>
+		<script src="js/register.js"></script>
 	</body>
 </html>
