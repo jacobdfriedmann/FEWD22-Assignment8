@@ -20,7 +20,7 @@
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="blog.html">Blog</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -28,7 +28,39 @@
 		<section id="main">
 			<div class="container">
 				<section id="contact">
+					<form novalidate id="registrationForm">
+					<p>What's your primary intended use?</p>
+					<label for="usage">
+						Business
+					</label>		
+						<input type="radio" name="usage" id="usage" value="business">
+					<label for="usage">
+						Personal
+					</label>	
+						<input type="radio" id="personal" name="usage" value="personal">
+					<p>
+						What most interests you about Relaxr? Select all that apply
+					</p>
+					<label for="checkbox">Schedule meetings for you</label>
+						<input type="checkbox" name="interests" id="interests" value="">
+					<label for="checkbox">Excel automation to complete your work for you
+						<input type="checkbox" name="interests" id="interests" value="">
+					<label for="checkbox">Responds to emails on your behalf</label>	
+						<input type="checkbox" name="interests" id="interests" value="">
+					<label for="checkbox">Does all your work for you with our revolutionary AI technology</label>	
+						<input type="checkbox" name="interests" id="interests" value="">
+
+					<label for="username">Create Username</label>
+						<input type="text" name="username" id="username" placeholder="Username">
+
+					<label for="password">Create Password</label>
+						<input type="password" name="password" id="password" placeholder="Password">
+
+					<label for="emailAddress">Email</label>
+						<input type="email" name="emailAddress" id="emailAddress" placeholder="Email">	
+					
 					<input type="submit" value="Register Now!">
+					</form>
 				</section>
 			</div>
 		</section>
