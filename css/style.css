@@ -291,6 +291,33 @@ footer p {
 #contact {
   width: 70%;
 }
+#registrationForm input {
+    display: block;
+    border: solid;
+    border-color: #bdccd4;
+    border-radius: 2px;
+    background-color: white;
+    font-size: 16px;
+    color:#bdccd4;
+    margin: 10px;
+}
+.buttonRegister {
+    background-color: #3dbeca;
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 0 15px 0;
+}
+label {
+   color: #3dbeca;
+}
+.register {
+  font-size: 60px;
+}
 
 @media only screen and (max-width: 768px) {
   body {
